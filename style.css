@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.intro {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  background: yellow;
+}
+
+.intro :nth-child(1) {
+  font-size: 1.5em;
+  margin-bottom: -5px;
+}
+
+.intro :nth-child(2) {
+  color: blue;
+  font-size: 4em;
+  margin: -10px 0;
+}
+
+.intro :nth-child(3) {
+  font-size: 3.8em;
+  margin: -10px 0;
+}
+
+.intro :nth-child(4) {
+  font-size: 2em;
+  margin-top: -5px;
+}
+
+.stars {
+  background: #A5A5A8;
+  position: relative;
+  padding: 30px 0;
+}
+
+.stars-img {
+  width: 100vw;
+}
+
+.main {
+  height: 200px;
+  padding: 40px 5px;
+  background: url(./bg1.jpg);
+  background-size: cover;
+}
+
+.main :nth-child(1) {
+  color: blue;
+  font-size: 1.6em;
+  margin-bottom: -10px;
+}
+
+.main :nth-child(2) {
+  font-size: 3.5em;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.main :nth-child(3) {
+  font-size: 5em;
+  margin-top: -10px;
+}
+
+.main2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.main2 :nth-child(1) {
+  font-size: 1.8em;
+  margin: -2px 0;
+}
+
+.main2  :nth-child(2) {
+  font-size: 2.5em;
+  margin: -2px 0;
+}
+
+.main2 :nth-child(3) {
+  font-size: 1.6em;
+  margin-top: -2px;
+}
+
+.main2 :nth-child(4) {
+  font-size: 3.2em;
+  margin: -10px 0;
+  text-transform: uppercase;
+}
+
+.main2 :nth-child(5) {
+  font-size: 7em;
+  margin: -10px 0;
+  text-transform: uppercase;
+}
+
+.main2 :nth-child(6) {
+  font-size: 4em;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  background: red;
+}
+
+
+/*.stars-img::after {
+  content: 'ghhffyuu';
+  width: 100vw;
+  height: 20vw;
+  background: black;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  z-index: 69;
+}*/
